@@ -1,0 +1,52 @@
+/* Card.css */
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: move;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.cardTitle {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cardDescription {
+  margin: 8px 0 0 0;
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.deleteButton {
+  border: none;
+  background: #f0f0f0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.deleteButton:hover {
+  background-color: #e0e0e0;
+}
